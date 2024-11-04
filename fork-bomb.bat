@@ -25,7 +25,7 @@ if /i "!confirm!"=="Y" (
         echo ^)
     ) > "yay.bat"
 ) else (
-    echo Exiting without opening yay.bat
-    pause
+    echo Exiting without running
+    echo pause
 )
 subst Z: /d
